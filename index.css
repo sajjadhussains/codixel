@@ -13,6 +13,10 @@ body{
     font-size: 18px;
     font-family: Sarabun,Regular;
 }
+.navbar-button:hover{
+    background-color: #0CC284;
+    color:white;
+}
 .nav-item a:visited{
     color:#15DB91;
 }
@@ -45,6 +49,19 @@ body{
 } 
 .first-div-section::after{
     border-right: 1px solid dimgray;
+}
+.client-section-border::after{
+    content: "";
+    display: block;
+    width: 1px;
+    background-color: #0F9F6612;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:15px;
+    left:50px;
 }
 
 /*What we do
@@ -184,9 +201,7 @@ footer .copy-right-section {
 *, :after, :before {
     box-sizing: border-box;
 }
-div {
-    display: block;
-}
+
 footer .copy-right-section .copy-right-text {
     font-weight: 300;
     color: #0CC284;
